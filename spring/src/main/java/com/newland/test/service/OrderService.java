@@ -1,10 +1,10 @@
 package com.newland.test.service;
 
-import com.newland.spring.annotation.Autowired;
-import com.newland.spring.annotation.Component;
-import com.newland.spring.annotation.Scope;
-import com.newland.spring.factory.BeanNameAware;
-import com.newland.spring.factory.InitializingBean;
+import com.spring.beans.factory.annotation.Autowired;
+import com.spring.stereotype.Component;
+import com.spring.context.annotation.Scope;
+import com.spring.beans.factory.BeanNameAware;
+import com.spring.beans.factory.InitializingBean;
 
 @Component("orderService")
 @Scope("prototype")

@@ -1,4 +1,4 @@
-package com.newland.spring.annotation;
+package com.spring.beans.factory.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -9,8 +9,6 @@ import java.lang.annotation.Target;
  * @author leell
  */
 @Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.TYPE)
-public @interface ComponentScan {
-
-    String value() default "";
+@Target({ElementType.FIELD, ElementType.METHOD})
+public @interface Autowired {
 }

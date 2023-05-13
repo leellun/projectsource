@@ -1,7 +1,7 @@
 package com.newland.test.service;
 
 
-import com.newland.spring.annotation.Component;
+import com.spring.stereotype.Component;
 
 @Component("userService")
 public class UserService {

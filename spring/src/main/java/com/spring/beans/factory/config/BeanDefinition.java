@@ -1,6 +1,6 @@
-package com.newland.spring.bean;
+package com.spring.beans.factory.config;
 
-import com.newland.spring.ScopeEnum;
+import com.spring.beans.factory.ScopeEnum;
 
 public class BeanDefinition {
 

@@ -1,6 +1,6 @@
 package com.newland.test;
 
-import com.newland.spring.ClassApplicationContext;
+import com.spring.context.support.ClassApplicationContext;
 
 public class Test {
 

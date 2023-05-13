@@ -1,4 +1,4 @@
-package com.newland.spring.annotation;
+package com.spring.stereotype;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
-public @interface Scope {
+public @interface Component {
 
-    String value() default "singleton";
+    String value() default "";
 }

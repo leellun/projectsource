@@ -1,7 +1,7 @@
 package com.newland.test.service;
 
-import com.newland.spring.annotation.Component;
-import com.newland.spring.factory.BeanPostProcessor;
+import com.spring.stereotype.Component;
+import com.spring.beans.factory.config.BeanPostProcessor;
 
 @Component
 public class TestBeanPostProcessor implements BeanPostProcessor {

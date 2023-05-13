@@ -1,13 +1,14 @@
-package com.newland.spring;
+package com.spring.context.support;
 
-import com.newland.spring.annotation.Autowired;
-import com.newland.spring.annotation.Component;
-import com.newland.spring.annotation.ComponentScan;
-import com.newland.spring.annotation.Scope;
-import com.newland.spring.bean.BeanDefinition;
-import com.newland.spring.factory.BeanNameAware;
-import com.newland.spring.factory.BeanPostProcessor;
-import com.newland.spring.factory.InitializingBean;
+import com.spring.beans.factory.ScopeEnum;
+import com.spring.beans.factory.annotation.Autowired;
+import com.spring.stereotype.Component;
+import com.spring.context.annotation.ComponentScan;
+import com.spring.context.annotation.Scope;
+import com.spring.beans.factory.config.BeanDefinition;
+import com.spring.beans.factory.BeanNameAware;
+import com.spring.beans.factory.config.BeanPostProcessor;
+import com.spring.beans.factory.InitializingBean;
 
 import java.io.File;
 import java.lang.reflect.Constructor;

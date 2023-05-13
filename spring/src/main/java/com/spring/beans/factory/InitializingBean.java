@@ -1,4 +1,4 @@
-package com.newland.spring.factory;
+package com.spring.beans.factory;
 
 /**
  * @author leell
