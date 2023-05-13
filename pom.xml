@@ -9,6 +9,7 @@
   <modules>
     <module>springboot</module>
     <module>springboot-test</module>
+    <module>spring</module>
   </modules>
 
   <properties>
